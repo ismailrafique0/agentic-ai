@@ -1,0 +1,28 @@
+# Virtual environments (all subapps)
+.venv/
+**/.venv/
+
+# Environment files
+.env
+**/.env
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+logs/
+**/logs/
+
+# Pytest cache
+.pytest_cache/
+**/.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Temp folder
+temp/
