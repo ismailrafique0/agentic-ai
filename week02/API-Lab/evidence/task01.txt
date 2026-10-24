@@ -1,0 +1,3 @@
+task01_posts1_status: 200
+task01_posts2_status: 200
+task01_posts3_status: 200

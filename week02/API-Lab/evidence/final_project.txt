@@ -1,0 +1,72 @@
+Operation: GET /posts/1
+Status Code: 200
+URL: https://jsonplaceholder.typicode.com/posts/1
+
+✓ Request Successful
+
+Post Details:
+  ID: 1
+  User ID: 1
+  Title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+  Body: quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas...
+
+---
+Operation: GET /posts (Retrieve All)
+Status Code: 200
+URL: https://jsonplaceholder.typicode.com/posts
+
+✓ Request Successful
+
+Total posts retrieved: 100
+
+First 5 post titles:
+  1. sunt aut facere repellat provident occaecati excepturi optio...
+  2. qui est esse...
+  3. ea molestias quasi exercitationem repellat qui ipsa sit aut...
+  4. eum et est occaecati...
+  5. nesciunt quas odio...
+
+---
+Operation: POST /posts (Create)
+Status Code: 201
+URL: https://jsonplaceholder.typicode.com/posts
+
+Request Body:
+{'title': 'My API Lab', 'body': 'Testing POST request', 'userId': 1}
+✓ Request Successful
+
+Created Post:
+  ID: 101
+  Title: My API Lab
+
+
+---
+Operation: PUT /posts/1 (Update)
+Status Code: 200
+URL: https://jsonplaceholder.typicode.com/posts/1
+
+Request Body:
+{'id': 1, 'title': 'Updated Title', 'body': 'Updated body content', 'userId': 1}
+✓ Request Successful
+
+Updated Post:
+  ID: 1
+  Title: Updated Title
+
+---
+Operation: DELETE /posts/1
+Status Code: 200
+URL: https://jsonplaceholder.typicode.com/posts/1
+
+✓ Request Successful
+
+✓ Post 1 deleted successfully
+
+---
+Operation: GET /posts/99999 (Test 404)
+Status Code: 404
+URL: https://jsonplaceholder.typicode.com/posts/99999
+
+✗ Not Found (404) - Resource does not exist

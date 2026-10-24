@@ -1,0 +1,2 @@
+DELETE /posts/1: 200
+{}

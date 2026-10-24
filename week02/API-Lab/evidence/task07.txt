@@ -1,0 +1,2 @@
+POST /posts: 201
+{'title': 'My API Lab', 'body': 'Testing POST request', 'userId': 1, 'id': 101}
