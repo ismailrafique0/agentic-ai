@@ -1,0 +1,12 @@
+
+INPUT: A delivery van struck my parked car.
+RULE: unknown
+LLM: Car Collision
+
+INPUT: Water from a broken pipe damaged my kitchen.
+RULE: unknown
+LLM: Pipe Leak Damage
+
+INPUT: My car was damaged after another driver hit it.
+RULE: unknown
+LLM: Collision Damage

@@ -1,0 +1,38 @@
+
+ZERO-SHOT VS FEW-SHOT RESULTS
+====================================================================================================
+
+Test input: My car was hit by another driver in a parking lot.
+Zero-shot result: vehicle
+Few-shot result:  vehicle
+Reference label:  vehicle
+Zero-shot latency: 4.833s
+Few-shot latency:  9.046s
+
+Test input: A pipe burst and flooded my kitchen.
+Zero-shot result: property
+Few-shot result:  property
+Reference label:  property
+Zero-shot latency: 2.770s
+Few-shot latency:  8.474s
+
+Test input: My suitcase was lost during a flight.
+Zero-shot result: travel
+Few-shot result:  travel
+Reference label:  travel
+Zero-shot latency: 2.847s
+Few-shot latency:  8.443s
+
+Test input: My laptop was damaged while I was using it at home.
+Zero-shot result: property
+Few-shot result:  other
+Reference label:  context-dependent
+Zero-shot latency: 3.167s
+Few-shot latency:  8.962s
+
+Test input: I needed medical treatment after a road accident.
+Zero-shot result: health
+Few-shot result:  vehicle
+Reference label:  context-dependent
+Zero-shot latency: 3.028s
+Few-shot latency:  9.050s

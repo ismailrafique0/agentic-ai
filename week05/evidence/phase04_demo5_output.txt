@@ -1,0 +1,114 @@
+Claim 1 | original | 77.27s
+{
+  "category": "Property Damage",
+  "summary": "The claim is for property damage due to a burst pipe in the claimant's house.",
+  "missing_information": [
+    "The extent of the damage to the property",
+    "The cost of repairs",
+    "The date of the incident",
+    "The location of the burst pipe",
+    "Any evidence of the incident (photos, videos, etc.)"
+  ]
+}
+------------------------------------------------------------
+Claim 1 | enhanced | 36.05s
+{
+  "category": "Property Damage",
+  "summary": "A pipe burst in the claimant's house.",
+  "missing_information": ["Repair estimate"],
+  "human_review_recommendation": "Yes"
+}
+------------------------------------------------------------
+Claim 2 | original | 49.55s
+{
+  "category": "Vehicle Accident",
+  "summary": "The claim involves a car accident in a parking lot where the other driver has left the scene.",
+  "missing_information": [
+    "Details of the other driver's identity or contact information",
+    "Description of the damage to the claimant's vehicle",
+    "Witness statements or contact information",
+    "Photographs or videos of the accident scene and damage",
+    "Any relevant police report or incident number"
+  ]
+}
+------------------------------------------------------------
+Claim 2 | enhanced | 67.83s
+{
+  "category": "Vehicle Damage",
+  "summary": "The claim involves a car being hit in a parking lot by another driver who left the scene.",
+  "missing_information": [
+    "Details of the other driver's identity or contact information",
+    "Any visible damage to the car",
+    "Witness statements or surveillance footage",
+    "Documentation of the incident (e.g., police report, photos)"
+  ],
+  "human_review_recommendation": "Yes"
+}
+------------------------------------------------------------
+Claim 3 | original | 45.31s
+{
+  "category": "Theft",
+  "summary": "The claimant reports that their laptop was stolen from their office.",
+  "missing_information": [
+    "Police report",
+    "Date and time of the theft",
+    "Location of the theft",
+    "Details of the laptop (make, model, serial number)",
+    "Any evidence of the theft (e.g., photos, videos, witness statements)"
+  ]
+}
+------------------------------------------------------------
+Claim 3 | enhanced | 29.84s
+{
+  "category": "Theft",
+  "summary": "The claim involves the theft of a laptop from the claimant's office.",
+  "missing_information": [
+    "Police report"
+  ],
+  "human_review_recommendation": "Yes"
+}
+------------------------------------------------------------
+Claim 4 | original | 54.67s
+{
+  "category": "Health Insurance",
+  "summary": "The claim is for reimbursement of expenses incurred due to an emergency hospital visit following an accident.",
+  "missing_information": [
+    "Date of the accident",
+    "Date of the hospital visit",
+    "Details of the accident (e.g., location, nature of the accident)",
+    "Hospital name and contact details",
+    "Total amount paid for the hospital visit",
+    "Receipts or invoices for the hospital visit",
+    "Policy number or identification details of the insurance policy"
+  ]
+}
+------------------------------------------------------------
+Claim 4 | enhanced | 24.54s
+{
+  "category": "Medical Expense",
+  "summary": "The claim involves an emergency hospital visit following an accident.",
+  "missing_information": [],
+  "human_review_recommendation": "No"
+}
+------------------------------------------------------------
+Claim 5 | original | 32.91s
+{
+  "category": "Property Damage",
+  "summary": "The claim is for damage to the roof of the claimant's house caused by a storm.",
+  "missing_information": [
+    "Date of the claim",
+    "Location of the claim",
+    "Estimated cost of repair",
+    "Photos or videos of the damage",
+    "Contact information of the claimant"
+  ]
+}
+------------------------------------------------------------
+Claim 5 | enhanced | 25.88s
+{
+  "category": "Property Damage",
+  "summary": "A storm damaged the roof of the claimant's house.",
+  "missing_information": [],
+  "human_review_recommendation": "No"
+}
+------------------------------------------------------------

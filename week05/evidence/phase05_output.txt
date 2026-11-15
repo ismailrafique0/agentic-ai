@@ -1,0 +1,12 @@
+
+Current state: START
+
+Current state: GENERATE
+Generated summary: A pipe burst in a house, damaging the kitchen ceiling. Photos are available, but a repair estimate has not been obtained. The incident occurred yesterday.
+
+Current state: VALIDATE
+
+Current state: FAILURE
+Validation failed. No retry is configured.
+
+Final state: DONE

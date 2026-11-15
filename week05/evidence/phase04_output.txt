@@ -1,0 +1,44 @@
+
+Attempt 1/3
+
+Draft:
+ A pipe burst damaged the kitchen ceiling. Photographs are available, but a repair estimate is missing. The incident occurred yesterday.
+
+Evaluation:
+ {
+  "passed": true,
+  "word_count": 40,
+  "unsupported_claims": [],
+  "missing_evidence_identified": false,
+  "feedback": "The draft meets all the criteria. It accurately reflects the original claim, maintains the same word count, and does not introduce any unsupported facts or missing evidence."
+}
+
+Attempt 2/3
+
+Draft:
+ A pipe burst, damaging the kitchen ceiling. Photographs are available, but a repair estimate is missing. The incident occurred yesterday.
+
+Evaluation:
+ {
+  "passed": true,
+  "word_count": 40,
+  "unsupported_claims": [],
+  "missing_evidence_identified": false,
+  "feedback": "The draft meets all the criteria. It accurately reflects the original claim, maintains the same word count, and does not introduce any unsupported facts or missing evidence."
+}
+
+Attempt 3/3
+
+Draft:
+ A pipe burst, damaging the kitchen ceiling. Photographs are available, but a repair estimate is missing. The incident occurred yesterday.
+
+Evaluation:
+ {
+  "passed": true,
+  "word_count": 40,
+  "unsupported_claims": [],
+  "missing_evidence_identified": false,
+  "feedback": "The draft meets all the criteria. It accurately reflects the original claim, maintains the same word count, and does not introduce any unsupported facts or missing evidence."
+}
+
+Stopped: attempt budget exhausted.

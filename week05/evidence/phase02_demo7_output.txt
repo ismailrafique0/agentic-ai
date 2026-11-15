@@ -1,0 +1,45 @@
+Claim 1 | A_relevant | Run 1 | vehicle | 13.747s
+Claim 1 | A_relevant | Run 2 | vehicle | 0.649s
+Claim 1 | A_relevant | Run 3 | vehicle | 0.679s
+Claim 1 | B_extra_irrelevant | Run 1 | vehicle | 26.002s
+Claim 1 | B_extra_irrelevant | Run 2 | vehicle | 0.664s
+Claim 1 | B_extra_irrelevant | Run 3 | vehicle | 0.679s
+Claim 2 | A_relevant | Run 1 | property | 7.473s
+Claim 2 | A_relevant | Run 2 | property | 0.645s
+Claim 2 | A_relevant | Run 3 | property | 0.643s
+Claim 2 | B_extra_irrelevant | Run 1 | property | 26.402s
+Claim 2 | B_extra_irrelevant | Run 2 | property | 0.659s
+Claim 2 | B_extra_irrelevant | Run 3 | property | 0.659s
+Claim 3 | A_relevant | Run 1 | travel | 7.377s
+Claim 3 | A_relevant | Run 2 | travel | 0.654s
+Claim 3 | A_relevant | Run 3 | travel | 0.644s
+Claim 3 | B_extra_irrelevant | Run 1 | travel | 27.835s
+Claim 3 | B_extra_irrelevant | Run 2 | travel | 0.874s
+Claim 3 | B_extra_irrelevant | Run 3 | travel | 0.741s
+Claim 4 | A_relevant | Run 1 | health | 9.275s
+Claim 4 | A_relevant | Run 2 | health | 0.717s
+Claim 4 | A_relevant | Run 3 | health | 0.719s
+Claim 4 | B_extra_irrelevant | Run 1 | health | 26.724s
+Claim 4 | B_extra_irrelevant | Run 2 | health | 0.693s
+Claim 4 | B_extra_irrelevant | Run 3 | health | 0.675s
+Claim 5 | A_relevant | Run 1 | context-dependent | 7.640s
+Claim 5 | A_relevant | Run 2 | context-dependent | 0.956s
+Claim 5 | A_relevant | Run 3 | context-dependent | 1.064s
+Claim 5 | B_extra_irrelevant | Run 1 | context-dependent | 26.480s
+Claim 5 | B_extra_irrelevant | Run 2 | context-dependent | 0.985s
+Claim 5 | B_extra_irrelevant | Run 3 | context-dependent | 1.024s
+
+SUMMARY
+================================================================================
+Claim 1 | A_relevant | Accuracy: 100% | Consistency: 100% | Mean latency: 5.025s | Mean output chars: 7.0
+Claim 1 | B_extra_irrelevant | Accuracy: 100% | Consistency: 100% | Mean latency: 9.115s | Mean output chars: 7.0
+Claim 2 | A_relevant | Accuracy: 100% | Consistency: 100% | Mean latency: 2.921s | Mean output chars: 8.0
+Claim 2 | B_extra_irrelevant | Accuracy: 100% | Consistency: 100% | Mean latency: 9.240s | Mean output chars: 8.0
+Claim 3 | A_relevant | Accuracy: 100% | Consistency: 100% | Mean latency: 2.891s | Mean output chars: 6.0
+Claim 3 | B_extra_irrelevant | Accuracy: 100% | Consistency: 100% | Mean latency: 9.817s | Mean output chars: 6.0
+Claim 4 | A_relevant | Accuracy: 100% | Consistency: 100% | Mean latency: 3.571s | Mean output chars: 6.0
+Claim 4 | B_extra_irrelevant | Accuracy: 100% | Consistency: 100% | Mean latency: 9.364s | Mean output chars: 6.0
+Claim 5 | A_relevant | Accuracy: 100% | Consistency: 100% | Mean latency: 3.220s | Mean output chars: 17.0
+Claim 5 | B_extra_irrelevant | Accuracy: 100% | Consistency: 100% | Mean latency: 9.496s | Mean output chars: 17.0
+
+Detailed results saved to context_results.csv
